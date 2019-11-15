@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <table>
   <tr>
-    <td class="top-left">Filter: None, Target: Click Class = top-left</td>
+    <td class="top-left" id="top-left">Filter: None, Target: Click Class = top-left</td>
     <td class="top-right">Filter: Page URL = https://philmolock.github.io/tacobell/, Target: Click Class = top-right</td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     function leaveSite(){
       window.location.href = "https://www.bing.com";
     }
-    document.getElementById("bot2left").addEventListener("click", leaveSite);
+    document.getElementById("top-left").addEventListener("click", leaveSite);
   </script>
 </body>
 </html>
