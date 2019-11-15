@@ -74,6 +74,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <td class="bottom-left">Filter: Page URL PATH = tacobell, Target: Click Class = bottom-left</td>
     <td class="bottom-right">Filter: Page Path = /tacobell/, Target: Click Class = bottom-right</td>
   </tr>
+    <tr>
+    <td class="bottom2-left" id="bot2left">Filter: none, Target: Click Class = bottom2-left</td>
+    <td class="bottom2-right">Filter: Page Path = /tacobell/, Target: Click Class = bottom2-right</td>
+  </tr>
   </table>
+  <script>
+    function leaveSite(){
+      window.location.href = "https://www.bing.com";
+    }
+    document.getElementById("bot2left").addEventListener("click", leaveSite);
+  </script>
 </body>
 </html>
